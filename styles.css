@@ -1,0 +1,15 @@
+body 
+{ font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; } 
+
+header { background-color: #ac8a6c; color: white; padding: 1em; text-align: center; width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); } 
+.social-media-buttons {display: flex; gap: 10px;}
+.social-media-buttons a {color: white; font-size: 1.5em;transition: color 0.3s ease;}
+.social-media-buttons a:hover { color: #f0f0f0;}
+main { margin: 20px; padding: 20px; background-color: rgb(255,254,252); border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease; } 
+main:hover { background-color: rgb(247, 243, 238); } 
+footer { text-align: center; padding: 1em; background-color: #43739d; color: white; width: 100%; position: relative; box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); margin-top:120px;}
+a { text-decoration: none; color: black; transition: color 0.3s ease; }
+ a:hover { color: #ac8a6c; } 
+ .container { display: flex; justify-content: flex-end; align-items: flex-start; height: 20vh; padding: 5px; }
+.left-image { max-width: 220px; height: 300px; margin-top: -200px; gap: 20px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; margin-bottom:2px} 
+.left-image:hover { transform: scale}
